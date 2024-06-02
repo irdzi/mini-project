@@ -1,0 +1,99 @@
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    margin-left: 35% !important;
+    z-index: 1000;
+}
+
+
+/* Main content styles */
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 390px; /* Mengganti margin-left dengan padding-left */
+    padding-top: 160px !important; /* Mengganti margin-top dengan padding-top */
+}
+
+
+/* Your existing CSS code here */
+
+/* Add the new CSS for handling card visibility */
+.card {
+    background-color: #1c1c1c;
+    border: 1.5px solid gray;
+    width: 127%;
+    margin-right: 200px;
+    transition: opacity 0.9s ease-in-out, transform 0.9s ease-in-out;
+}
+
+.card-img-top {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+}
+
+.sugest-userfix {
+    position: fixed;
+    top: 15px;
+    right: 0;
+    width: 400px;
+    margin-right: 150px !important;
+}
+
+.suggested-users .d-flex {
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 0;
+}
+
+.suggested-users .d-flex:last-child {
+    border-bottom: none;
+}
+
+.suggested-users img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.suggested-users h6 {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.suggested-users small {
+    font-size: 0.875rem;
+    margin-bottom: 0;
+    color: #9a9a9a;
+}
+
+h5.h5 {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+.bg-dark {
+    background-color: rgb(30, 30, 30) !important;
+}
+
+.card-body {
+    background-color: rgb(45, 45, 45);
+}
+
+.text-muted {
+    color: #9a9a9a !important;
+}
+
+.text-info {
+    color: #17a2b8 !important;
+}
